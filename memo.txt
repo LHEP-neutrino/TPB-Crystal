@@ -1,0 +1,19 @@
+memo
+
+1. Differences from the workflow shown in the slides
+
+The slides included multiple RF classification stages and an additional GMM step. I have omitted these additional stages from the main workflow because I was unable to improve the classification accuracy with the later RF stages, and the photon-yield model was ultimately fitted using only the results from the first RF stage.
+
+The additional processing code is retained in the archive folder for reference, although it is not well organized.
+
+
+
+2. Adding images from new plates
+
+To process additional plates, you should be able to:
+
+- Add a folder containing the new images under data, following the existing directory structure.
+- Add the new plate IDs to the plate list in the first cell of the implementation notebook.
+- Update the CSV file containing the measured photon yields.
+
+This should allow the new plates to be included in the analysis.

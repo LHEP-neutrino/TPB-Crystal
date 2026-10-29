@@ -1,0 +1,29 @@
+{
+  "source_notebook": "training/archive/superpixel_RF_GMM_training.ipynb",
+  "sha256": "ebff3173b8479f4f0529bace512a0a4179a58a018262dde8f6fcab25a4f1caeb",
+  "cell_index": 12,
+  "assignment": "manual_cluster_labels",
+  "image_order": "natural sort; checked against all 166 gmm_settings.csv names",
+  "images": 166,
+  "label_groups": 310,
+  "stage2_targets": 31,
+  "resolutions": [
+    {
+      "image_number": 5,
+      "name": "0020_20260806_140100",
+      "stage1_cluster": 1,
+      "resolution": "Keep scalar human label; omit unused second-GMM split",
+      "source_label": 51
+    },
+    {
+      "image_number": 5,
+      "name": "0020_20260806_140100",
+      "stage1_cluster": 2,
+      "resolution": "Unsplit parent; collapse identical nested labels",
+      "source_label": [
+        0,
+        0
+      ]
+    }
+  ]
+}
